@@ -94,8 +94,7 @@ int main(int argc, char* argv[])
     {
         putchar(buffer[i]);
 
-        // when the counter is a multiple of 3 and we're not at the last digit, you can print a comma
-        // so, if "len", which is the "buffer" value, which in turn is the "counter" variable value, is divisible by 3, with no remainder
+        // If "len", which is the "buffer" value, which in turn is the "counter" variable value, is divisible by 3, with no remainder
         // BUT "len" is the total length of the number, not the current position in the number, so we use "i", which represents the current position
         // in the number. Then by checking i != len - 1, we make sure not to print a comma after the last digit
         if (((len - i - 1) % 3 == 0) && (i != len - 1))

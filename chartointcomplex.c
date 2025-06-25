@@ -1,6 +1,4 @@
-// Another approach is to use a data structure like a dictionary or hash table, but these aren’t available in C.
-// In C, you could use parallel arrays: one array for the string representations of numbers and another for their corresponding integer values.
-// Then, you could loop through the arrays to find the matching string and return the corresponding integer
+// A simple C program to check if a file is a pdf file
 
 #include <ctype.h>
 #include <stdio.h>

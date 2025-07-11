@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
     //  argc should be between 2 and 11, inclusive, to allow up to 10 arguments
     if (argc < 2 || argc > 11)
     {
-        printf("Usage: ./chartoint [one to zero] (max 10 words)\n");
+        printf("Usage: ./chartointcomplex [one to zero] (max 10 words)\n");
         return 1;
     }
 

@@ -1,4 +1,4 @@
-// A simple C program to check if a file is a pdf file
+// A C program to convert characters to integers
 
 #include <ctype.h>
 #include <stdio.h>
